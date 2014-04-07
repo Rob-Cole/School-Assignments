@@ -1,6 +1,6 @@
 import java.awt.Color;
 
-public class e2_8 {
+public class Question3 {
 	public static void main(String[] args){
 	
 		Color temp = new Color(50, 100, 150); // setting the colour to that given in the question

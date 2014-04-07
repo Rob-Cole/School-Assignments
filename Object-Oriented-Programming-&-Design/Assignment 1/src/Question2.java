@@ -1,5 +1,5 @@
 
-public class e2_5 {
+public class Question2 {
 	public static void main(String[] args) {
 
 		String test = "Mississippi"; //defining the given string

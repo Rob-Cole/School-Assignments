@@ -10,3 +10,6 @@ Some topics that were covered are:
 - Extending classes
 - Inheriting classes
 - Basic UML design concepts
+
+These assignments were taken from our text book, and some classes were given and to be implemented in the given task.
+Classes that have a comment on the top stating they were provided.

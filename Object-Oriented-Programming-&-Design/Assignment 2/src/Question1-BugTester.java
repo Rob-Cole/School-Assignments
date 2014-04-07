@@ -1,5 +1,4 @@
 //Part of Question 3.12
-
 public class BugTester {
 	public static void main(String[] args)
 	{

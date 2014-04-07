@@ -5,25 +5,22 @@ public class Rectangle implements Measurable{
 	private int wdth;
 	private String refference;
 	
-	public Rectangle(String reff, int l, int w)
-	{
+	public Rectangle(String reff, int l, int w) {
 		len = l;
 		wdth = w;
 		refference = reff;
 	}
 	
-	public double getMeasure()
-	{
+	public double getMeasure() {
 		double perim = 2*len + 2*wdth;
 		return perim;
 	}
 	
-	public String getName(){
+	public String getName() {
 		return refference;
 	}
 	
-	public String getLargest(Rectangle a)
-	{
+	public String getLargest(Rectangle a) {
 		if (a.getMeasure() < this.getMeasure())
 		return (this.getName());
 		else if (this.getMeasure() < a.getMeasure())

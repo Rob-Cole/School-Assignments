@@ -1,10 +1,13 @@
 //Testing Sequence method used in 7.12
+
 public class SequenceTester {
 	public static void main(String [] args){
 		
 		Sequence A = new Sequence(9);
 		Sequence B = new Sequence(9);
+		
 		// hard coding the example arrays
+		
 		A.set(0, 1);
 		A.set(1,4);
 		A.set(2, 9);
@@ -25,13 +28,11 @@ public class SequenceTester {
 		B.set(7, 4);
 		B.set(8,9);
 		
-if (A.isPermutationOf(B) == true){
-	System.out.println("true");
-}
-	else{
-	System.out.println("false");
-	}
-		
-		
+		if (A.isPermutationOf(B) == true){
+			System.out.println("true");
+		}
+		else{
+			System.out.println("false");
+		}
 	}
 }

@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class e4_10 {
-	
 	public static void main(String[] args)
 	{
 		
@@ -19,6 +18,9 @@ public class e4_10 {
 	System.out.println("The cost of gas per 100 miles is $" + ((100 / F_E)*gasPrice));
 	System.out.println("With the current amount of gas in the car, you can travel " + (F_E * gallons) + " miles.");
 	
+	
+	
 	}
+	
 	
 }

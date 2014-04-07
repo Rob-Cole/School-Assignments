@@ -1,16 +1,14 @@
 /**
    A question with a text and an answer.
 */
-public class Question
-{
+public class Question {
    private String text;
    private String answer;
 
    /**
       Constructs a question with empty question and answer.
    */
-   public Question() 
-   {
+   public Question() {
       text = "";
       answer = "";
    }
@@ -20,8 +18,7 @@ public class Question
       @param questionText the text of this question
    */
   
-   public void setText(String questionText)   
-   {
+   public void setText(String questionText) {
       text = questionText;
    }
 
@@ -29,10 +26,8 @@ public class Question
       Sets the answer for this question.
       @param correctResponse the answer
    */
-   public void setAnswer(String correctResponse)
-   {
-      answer = correctResponse;
-      
+   public void setAnswer(String correctResponse) {
+      answer = correctResponse; 
    }
 
    /**
@@ -40,16 +35,14 @@ public class Question
       @param response the response to check
       @return true if the response was correct, false otherwise
    */
-   public boolean checkAnswer(String response)
-   {
+   public boolean checkAnswer(String response) {
       return response.equals(answer);
    }
 
    /**
       Displays this question.
    */
-   public void display()
-   {
+   public void display() {
       System.out.println(text);
    }
 }

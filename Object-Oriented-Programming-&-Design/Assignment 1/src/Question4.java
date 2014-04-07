@@ -1,6 +1,6 @@
 import java.awt.Color;
 
-public class e2_10 {
+public class Question4 {
 	public static void main(String[] args){
 	
 		Color temp = Color.RED; //creating a colour temp to the preset values of RED

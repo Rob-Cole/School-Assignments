@@ -9,16 +9,13 @@ public class Manager extends Employee {
 		department = dept;
 	}
 		
-		public void setDepartment(String txt)
-	{
+		public void setDepartment(String txt) {
 		department = txt;
 	}
 	
-	public String toStr()
-	{
+	public String toStr() {
 		String str = this.toString() + " department: " + department;
 		
 		return str;
 	}
-
 }

@@ -16,6 +16,9 @@ import javax.swing.JLabel;
 
 /**
  * This class allows you to view and edit pictures.
+ * 
+ * This class was provided to properly complete this assignment
+ * 
  */
 public class Picture
 { 

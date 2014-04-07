@@ -1,4 +1,4 @@
-public class e2_14 {
+public class Question5 {
 		public static void main(String[] args) {
 			
 					 Day today = new Day();

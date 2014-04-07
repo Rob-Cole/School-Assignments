@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 
 public class e3_8 {
-	
 	/* This is the tester for the Employee class where the user can input test the method of Employee by entering what they
 	 * desire in each field. See Employee file for the inner workings of the Employee method.*/
 

@@ -14,5 +14,6 @@ public class FillInQuestionTester {
 		System.out.print("your answer: ");
 		String response = in.nextLine();
 		System.out.println(q.checkAnswer(response));
+	
 	}
 }
